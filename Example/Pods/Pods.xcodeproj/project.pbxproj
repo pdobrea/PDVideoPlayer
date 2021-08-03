@@ -10,7 +10,6 @@
 		0285C15F29143140247E33E153CB5CAE /* PDVideoPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF89F8519D181BE62E8BDADD82D1D248 /* PDVideoPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1434FF1511AA89E4AF41873DF03B0CED /* Pods-PDVideoPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC926910A1D66DB926E64A87BB6E3A82 /* Pods-PDVideoPlayer_Example-dummy.m */; };
 		496F680950BF3E956864CA07C53A7956 /* Pods-PDVideoPlayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F90348B82BFAEF465496B556BEF5EC27 /* Pods-PDVideoPlayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C5A688FD5F2C145FA8F583E1A3EB0D0 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2922C9B4DF8B24732A7436BC05E40D33 /* ReplaceMe.swift */; };
 		95B97285C6B6CB6B77850FCC6F759467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A19E9B771CE6A39082216F204D0C1A53 /* PDVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAAAA70E78D1A52E6778CCAF67C9878 /* PDVideoPlayer-dummy.m */; };
 		AC62C3F0494BBF0FC574BF1618CD27F0 /* Pods-PDVideoPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 363B52174987F859DF94EC570772A7C5 /* Pods-PDVideoPlayer_Tests-dummy.m */; };
@@ -55,7 +54,6 @@
 		1173180220AD4D7B9AC7D3627F3D920A /* PDVideoPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PDVideoPlayer-Info.plist"; sourceTree = "<group>"; };
 		1FE9B85FD7647E560DB5153E3AB0533A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2584682E075007A0EAA75E8419063D2B /* Pods-PDVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2922C9B4DF8B24732A7436BC05E40D33 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PDVideoPlayer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2A20DA0F998F4755EB65042F893D3857 /* Pods_PDVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDVideoPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		363B52174987F859DF94EC570772A7C5 /* Pods-PDVideoPlayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDVideoPlayer_Tests-dummy.m"; sourceTree = "<group>"; };
 		4457F536B6915ED1292F4D2726714CA4 /* PDVideoPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PDVideoPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -154,7 +152,6 @@
 		222EDA44EAECE57A4729F93681E63EB9 /* PDVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				2922C9B4DF8B24732A7436BC05E40D33 /* ReplaceMe.swift */,
 				CE88D2D426B9376F00C3DA72 /* PDVideoPlayer.swift */,
 				CE88D2CA26B9376F00C3DA72 /* Extensions */,
 				CE88D2D526B9376F00C3DA72 /* HelperClasses */,
@@ -438,7 +435,6 @@
 				CE88D2E326B9376F00C3DA72 /* PDVideoPlayer.swift in Sources */,
 				CE88D2E026B9376F00C3DA72 /* PDVideoPlayer+VideoControl.swift in Sources */,
 				A19E9B771CE6A39082216F204D0C1A53 /* PDVideoPlayer-dummy.m in Sources */,
-				8C5A688FD5F2C145FA8F583E1A3EB0D0 /* ReplaceMe.swift in Sources */,
 				CE88D2DE26B9376F00C3DA72 /* PDVideoPlayer+Thumbnail.swift in Sources */,
 				CE88D2E526B9376F00C3DA72 /* PDPlayerView+Pan.swift in Sources */,
 			);
