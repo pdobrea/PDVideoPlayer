@@ -7,7 +7,7 @@
 
 import AVKit
 
-extension PDVideoPlayer {
+public extension PDVideoPlayer {
 
 	var resizable: Bool {
 		get {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension Int {
+public extension Int {
 	var int32: Int32 { return Int32(self) }
 	var int64: Int64 { return Int64(self) }
 	var double: Double { return Double(self) }
@@ -15,7 +15,7 @@ extension Int {
 	var cgFloat: CGFloat { return CGFloat(self) }
 }
 
-extension Int32 {
+public extension Int32 {
 	var int: Int { return Int(self) }
 	var int64: Int64 { return Int64(self) }
 	var double: Double { return Double(self) }
@@ -23,7 +23,7 @@ extension Int32 {
 	var cgFloat: CGFloat { return CGFloat(self) }
 }
 
-extension Int64 {
+public extension Int64 {
 	var int32: Int32 { return Int32(self) }
 	var int: Int { return Int(self) }
 	var double: Double { return Double(self) }
@@ -31,7 +31,7 @@ extension Int64 {
 	var cgFloat: CGFloat { return CGFloat(self) }
 }
 
-extension Double {
+public extension Double {
 	var int32: Int32 { return Int32(self) }
 	var int64: Int64 { return Int64(self) }
 	var int: Int { return Int(self) }
@@ -39,7 +39,7 @@ extension Double {
 	var cgFloat: CGFloat { return CGFloat(self) }
 }
 
-extension Float {
+public extension Float {
 	var int32: Int32 { return Int32(self) }
 	var int64: Int64 { return Int64(self) }
 	var int: Int { return Int(self) }
@@ -47,7 +47,7 @@ extension Float {
 	var cgFloat: CGFloat { return CGFloat(self) }
 }
 
-extension CGFloat {
+public extension CGFloat {
 	var int32: Int32 { return Int32(self) }
 	var int64: Int64 { return Int64(self) }
 	var int: Int { return Int(self) }

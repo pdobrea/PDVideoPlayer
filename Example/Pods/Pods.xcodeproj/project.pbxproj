@@ -155,7 +155,6 @@
 				CE88D30B26B965DF00C3DA72 /* Extensions */,
 				CE88D31526B965DF00C3DA72 /* HelperClasses */,
 				CE88D31426B965DF00C3DA72 /* PDVideoPlayer.swift */,
-				CE88D30926B965DF00C3DA72 /* PDVideoPlayer+Extensions */,
 				CE88D30A26B965DF00C3DA72 /* PDVideoPlayerProtocols.swift */,
 				B71646D2EE7D63F8A4A2C605B3498BCD /* Pod */,
 				08F509353D8D0E5874DC5F97B92FE6CE /* Support Files */,
@@ -196,14 +195,6 @@
 				5567533D330207E575E12BE9936E13FE /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		CE88D30926B965DF00C3DA72 /* PDVideoPlayer+Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "PDVideoPlayer+Extensions";
-			path = "PDVideoPlayer/Classes/PDVideoPlayer+Extensions";
 			sourceTree = "<group>";
 		};
 		CE88D30B26B965DF00C3DA72 /* Extensions */ = {
@@ -575,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -670,7 +661,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PDVideoPlayer/PDVideoPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PDVideoPlayer/PDVideoPlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PDVideoPlayer/PDVideoPlayer.modulemap";
 				PRODUCT_MODULE_NAME = PDVideoPlayer;
@@ -768,7 +759,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -795,7 +786,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PDVideoPlayer/PDVideoPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PDVideoPlayer/PDVideoPlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PDVideoPlayer/PDVideoPlayer.modulemap";
 				PRODUCT_MODULE_NAME = PDVideoPlayer;

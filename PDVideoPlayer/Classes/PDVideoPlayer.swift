@@ -7,7 +7,7 @@
 
 import AVKit
 
-class PDVideoPlayer: NSObject {
+public class PDVideoPlayer: NSObject {
 
 	internal let controller: AVPlayerViewController
 	internal var url: URL

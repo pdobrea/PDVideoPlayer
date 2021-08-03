@@ -30,7 +30,7 @@ fileprivate enum PlayerItemObservationKeypath: String {
 
 }
 
-extension PDVideoPlayer {
+public extension PDVideoPlayer {
 
 	internal func addObserverFunctionality() {
 		for keyPath in PlayerObservationKeypath.allValues {

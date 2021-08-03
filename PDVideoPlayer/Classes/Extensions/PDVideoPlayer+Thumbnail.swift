@@ -7,7 +7,7 @@
 
 import AVKit
 
-extension PDVideoPlayer {
+public extension PDVideoPlayer {
 
 	func getThumbnail(atTime seconds: Double) -> UIImage? {
 		var image: UIImage?

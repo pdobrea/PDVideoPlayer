@@ -7,7 +7,7 @@
 
 import AVKit
 
-extension PDVideoPlayer {
+public extension PDVideoPlayer {
 
 	var videoDuration: Double {
 		var videoDuration = 0.0

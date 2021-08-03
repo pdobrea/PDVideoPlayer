@@ -7,7 +7,7 @@
 
 import AVKit
 
-extension PDVideoPlayer {
+public extension PDVideoPlayer {
 
 	func add(inViewController viewController: UIViewController, container: UIView) {
 		viewController.addChild(controller)
