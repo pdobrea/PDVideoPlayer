@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PDVideoPlayer_Example' do
+  pod 'PDVideoPlayer', :path => '../'
+
+  target 'PDVideoPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
