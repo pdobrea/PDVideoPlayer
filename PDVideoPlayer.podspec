@@ -31,7 +31,7 @@ It also provides delegate methods to help implement a custom control UI.
   s.source           = { :git => 'https://github.com/pdobrea/PDVideoPlayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
   s.source_files = 'PDVideoPlayer/Classes/**/*'
   
