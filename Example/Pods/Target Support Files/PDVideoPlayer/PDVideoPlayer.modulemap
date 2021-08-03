@@ -1,0 +1,6 @@
+framework module PDVideoPlayer {
+  umbrella header "PDVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

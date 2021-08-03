@@ -22,7 +22,7 @@ pod 'PDVideoPlayer'
 
 ## Author
 
-pdobrea, pdobrea@pentalog.com
+Paul Dobrea, paul.dobrea@gmail.com
 
 ## License
 

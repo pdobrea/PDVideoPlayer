@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  PDVideoPlayer
 //
-//  Created by pdobrea on 08/03/2021.
-//  Copyright (c) 2021 pdobrea. All rights reserved.
+//  Created by Paul Dobrea on 08/03/2021.
+//  Copyright (c) 2021 Paul Dobrea. All rights reserved.
 //
 
 import UIKit

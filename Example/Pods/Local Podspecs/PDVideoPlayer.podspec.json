@@ -1,0 +1,22 @@
+{
+  "name": "PDVideoPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of PDVideoPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pdobrea/PDVideoPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pdobrea": "pdobrea@pentalog.com"
+  },
+  "source": {
+    "git": "https://github.com/pdobrea/PDVideoPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "PDVideoPlayer/Classes/**/*"
+}

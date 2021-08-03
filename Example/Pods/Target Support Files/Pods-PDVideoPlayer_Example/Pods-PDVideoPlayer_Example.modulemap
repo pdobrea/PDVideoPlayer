@@ -1,0 +1,6 @@
+framework module Pods_PDVideoPlayer_Example {
+  umbrella header "Pods-PDVideoPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - PDVideoPlayer (0.1.0)
+
+DEPENDENCIES:
+  - PDVideoPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  PDVideoPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PDVideoPlayer: cc8976f3649107f71ea85dd8bdaf38ddf141ee15
+
+PODFILE CHECKSUM: 44f05b60cb5c33b40f181ec82862e5ae52dc84b9
+
+COCOAPODS: 1.10.1

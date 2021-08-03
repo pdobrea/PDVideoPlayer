@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'PDVideoPlayer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PDVideoPlayer.'
+  s.summary          = 'PDVideoPlayer is a simple native video player tool'
+  s.swift_versions = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +19,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+PDVideoPlayer was created to ease the work of people who want to implement
+a native video player with a few extra features like pinch to resize and pan to move.
+It also provides delegate methods to help implement a custom control UI.
                        DESC
 
   s.homepage         = 'https://github.com/pdobrea/PDVideoPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'pdobrea' => 'pdobrea@pentalog.com' }
+  s.author           = { 'Paul Dobrea' => 'paul.dobrea@gmail.com' }
   s.source           = { :git => 'https://github.com/pdobrea/PDVideoPlayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
