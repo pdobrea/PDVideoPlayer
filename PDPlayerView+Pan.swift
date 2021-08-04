@@ -9,7 +9,7 @@ import UIKit
 
 extension PDPlayerView {
 
-	@objc internal func panAction(_ sender: UIPinchGestureRecognizer) {
+	@objc func panAction(_ sender: UIPinchGestureRecognizer) {
 		switch sender.state {
 		case .began:
 			panStartPoint = sender.location(in: self.superview)

@@ -7,7 +7,7 @@
 
 import UIKit
 
-internal class PDPlayerView: UIView {
+class PDPlayerView: UIView {
 
 	var parent: PDVideoPlayer?
 	var resizable: Bool = false {
@@ -22,17 +22,17 @@ internal class PDPlayerView: UIView {
 	}
 	private let pinchGesture = UIPinchGestureRecognizer()
 	private let panGesture = UIPanGestureRecognizer()
-	internal var width = NSLayoutConstraint()
-	internal var height = NSLayoutConstraint()
-	internal var centerX = NSLayoutConstraint()
-	internal var centerY = NSLayoutConstraint()
-	internal var maxWidth: CGFloat = 0.0
-	internal var maxHeight: CGFloat = 0.0
-	internal var startWidth: CGFloat = 0.0
-	internal var startHeight: CGFloat = 0.0
-	internal var panStartPoint: CGPoint = .zero
-	internal var startCenterX: CGFloat = 0.0
-	internal var startCenterY: CGFloat = 0.0
+	var width = NSLayoutConstraint()
+	var height = NSLayoutConstraint()
+	var centerX = NSLayoutConstraint()
+	var centerY = NSLayoutConstraint()
+	var maxWidth: CGFloat = 0.0
+	var maxHeight: CGFloat = 0.0
+	var startWidth: CGFloat = 0.0
+	var startHeight: CGFloat = 0.0
+	var panStartPoint: CGPoint = .zero
+	var startCenterX: CGFloat = 0.0
+	var startCenterY: CGFloat = 0.0
 
 	init(parent: PDVideoPlayer) {
 		self.parent = parent

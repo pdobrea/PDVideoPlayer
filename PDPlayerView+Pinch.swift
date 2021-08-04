@@ -11,7 +11,7 @@ fileprivate let minSize: CGFloat = 80.0
 
 extension PDPlayerView {
 
-	@objc internal func pinchAction(_ sender: UIPinchGestureRecognizer) {
+	@objc func pinchAction(_ sender: UIPinchGestureRecognizer) {
 		switch sender.state {
 		case .began:
 			startWidth = self.width.constant

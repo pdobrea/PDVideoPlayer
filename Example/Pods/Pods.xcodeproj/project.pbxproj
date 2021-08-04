@@ -152,10 +152,20 @@
 		222EDA44EAECE57A4729F93681E63EB9 /* PDVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				CE88D30B26B965DF00C3DA72 /* Extensions */,
-				CE88D31526B965DF00C3DA72 /* HelperClasses */,
 				CE88D31426B965DF00C3DA72 /* PDVideoPlayer.swift */,
+				CE88D30C26B965DF00C3DA72 /* PDVideoPlayer+ViewManagement.swift */,
+				CE88D30D26B965DF00C3DA72 /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */,
+				CE88D30E26B965DF00C3DA72 /* PDVideoPlayer+Thumbnail.swift */,
+				CE88D30F26B965DF00C3DA72 /* PDVideoPlayer+ObserverFunctionality.swift */,
+				CE88D31026B965DF00C3DA72 /* PDVideoPlayer+VideoControl.swift */,
+				CE88D31126B965DF00C3DA72 /* PDVideoPlayer+Gestures.swift */,
+				CE88D31226B965DF00C3DA72 /* PDVideoPlayer+VideoInformation.swift */,
+				CE88D31826B965DF00C3DA72 /* PDPlayerView.swift */,
+				CE88D31626B965DF00C3DA72 /* PDPlayerView+Pinch.swift */,
+				CE88D31726B965DF00C3DA72 /* PDPlayerView+Pan.swift */,
+				CE88D31926B965DF00C3DA72 /* PDPlayerView+BoundsManagement.swift */,
 				CE88D30A26B965DF00C3DA72 /* PDVideoPlayerProtocols.swift */,
+				CE88D31326B965DF00C3DA72 /* Numbers+Extensions.swift */,
 				B71646D2EE7D63F8A4A2C605B3498BCD /* Pod */,
 				08F509353D8D0E5874DC5F97B92FE6CE /* Support Files */,
 			);
@@ -195,34 +205,6 @@
 				5567533D330207E575E12BE9936E13FE /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		CE88D30B26B965DF00C3DA72 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				CE88D30C26B965DF00C3DA72 /* PDVideoPlayer+ViewManagement.swift */,
-				CE88D30D26B965DF00C3DA72 /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */,
-				CE88D30E26B965DF00C3DA72 /* PDVideoPlayer+Thumbnail.swift */,
-				CE88D30F26B965DF00C3DA72 /* PDVideoPlayer+ObserverFunctionality.swift */,
-				CE88D31026B965DF00C3DA72 /* PDVideoPlayer+VideoControl.swift */,
-				CE88D31126B965DF00C3DA72 /* PDVideoPlayer+Gestures.swift */,
-				CE88D31226B965DF00C3DA72 /* PDVideoPlayer+VideoInformation.swift */,
-				CE88D31326B965DF00C3DA72 /* Numbers+Extensions.swift */,
-			);
-			name = Extensions;
-			path = PDVideoPlayer/Classes/Extensions;
-			sourceTree = "<group>";
-		};
-		CE88D31526B965DF00C3DA72 /* HelperClasses */ = {
-			isa = PBXGroup;
-			children = (
-				CE88D31626B965DF00C3DA72 /* PDPlayerView+Pinch.swift */,
-				CE88D31726B965DF00C3DA72 /* PDPlayerView+Pan.swift */,
-				CE88D31826B965DF00C3DA72 /* PDPlayerView.swift */,
-				CE88D31926B965DF00C3DA72 /* PDPlayerView+BoundsManagement.swift */,
-			);
-			name = HelperClasses;
-			path = PDVideoPlayer/Classes/HelperClasses;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {

@@ -9,9 +9,9 @@ import AVKit
 
 public class PDVideoPlayer: NSObject {
 
-	internal let controller: AVPlayerViewController
-	internal var url: URL
-	internal weak var playerView: PDPlayerView?
+	public let controller: AVPlayerViewController
+	var url: URL
+	weak var playerView: PDPlayerView?
 
 	var showsPlaybackControls: Bool = true {
 		didSet {
@@ -23,7 +23,7 @@ public class PDVideoPlayer: NSObject {
 	weak var fullscreenPresentationDelegate: PDVideoPlayerFullscreenPresentationDelegate?
 	weak var videoInformationDelegate: PDVideoPlayerVideoInformationDelegate?
 
-	init(url: URL) {
+	public init(url: URL) {
 		self.url = url
 		controller = AVPlayerViewController()
 		super.init()
