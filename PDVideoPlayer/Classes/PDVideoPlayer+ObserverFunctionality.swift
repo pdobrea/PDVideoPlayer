@@ -30,9 +30,9 @@ fileprivate enum PlayerItemObservationKeypath: String {
 
 }
 
-public extension PDVideoPlayer {
+extension PDVideoPlayer {
 
-	internal func addObserverFunctionality() {
+	func addObserverFunctionality() {
 		for keyPath in PlayerObservationKeypath.allValues {
 			controller.player?.addObserver(self, forKeyPath: keyPath.rawValue, options: .new, context: nil)
 		}
@@ -41,7 +41,7 @@ public extension PDVideoPlayer {
 		}
 	}
 
-	internal func cleanObserverFunctionality() {
+	func cleanObserverFunctionality() {
 		for keyPath in PlayerObservationKeypath.allValues {
 			controller.player?.removeObserver(self, forKeyPath: keyPath.rawValue)
 		}
@@ -50,7 +50,7 @@ public extension PDVideoPlayer {
 		}
 	}
 
-	override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+	public override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
 		if let object = object, let keyPath = keyPath, let change = change {
 			if object is AVPlayer {
 				if let type = PlayerObservationKeypath(rawValue: keyPath) {

@@ -15,20 +15,20 @@
 		AC62C3F0494BBF0FC574BF1618CD27F0 /* Pods-PDVideoPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 363B52174987F859DF94EC570772A7C5 /* Pods-PDVideoPlayer_Tests-dummy.m */; };
 		BCC186B973F0C4E8FB914E9583E792D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C390BAD8B5FD4A674B3CFD7CB1FBD92B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CE88D31A26B965DF00C3DA72 /* PDVideoPlayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D30A26B965DF00C3DA72 /* PDVideoPlayerProtocols.swift */; };
-		CE88D31B26B965DF00C3DA72 /* PDVideoPlayer+ViewManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D30C26B965DF00C3DA72 /* PDVideoPlayer+ViewManagement.swift */; };
-		CE88D31C26B965DF00C3DA72 /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D30D26B965DF00C3DA72 /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */; };
-		CE88D31D26B965DF00C3DA72 /* PDVideoPlayer+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D30E26B965DF00C3DA72 /* PDVideoPlayer+Thumbnail.swift */; };
-		CE88D31E26B965DF00C3DA72 /* PDVideoPlayer+ObserverFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D30F26B965DF00C3DA72 /* PDVideoPlayer+ObserverFunctionality.swift */; };
-		CE88D31F26B965DF00C3DA72 /* PDVideoPlayer+VideoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31026B965DF00C3DA72 /* PDVideoPlayer+VideoControl.swift */; };
-		CE88D32026B965DF00C3DA72 /* PDVideoPlayer+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31126B965DF00C3DA72 /* PDVideoPlayer+Gestures.swift */; };
-		CE88D32126B965DF00C3DA72 /* PDVideoPlayer+VideoInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31226B965DF00C3DA72 /* PDVideoPlayer+VideoInformation.swift */; };
-		CE88D32226B965DF00C3DA72 /* Numbers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31326B965DF00C3DA72 /* Numbers+Extensions.swift */; };
-		CE88D32326B965DF00C3DA72 /* PDVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31426B965DF00C3DA72 /* PDVideoPlayer.swift */; };
-		CE88D32426B965DF00C3DA72 /* PDPlayerView+Pinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31626B965DF00C3DA72 /* PDPlayerView+Pinch.swift */; };
-		CE88D32526B965DF00C3DA72 /* PDPlayerView+Pan.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31726B965DF00C3DA72 /* PDPlayerView+Pan.swift */; };
-		CE88D32626B965DF00C3DA72 /* PDPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31826B965DF00C3DA72 /* PDPlayerView.swift */; };
-		CE88D32726B965DF00C3DA72 /* PDPlayerView+BoundsManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88D31926B965DF00C3DA72 /* PDPlayerView+BoundsManagement.swift */; };
+		CE51617726BAB1480044C0FD /* PDVideoPlayer+Gestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51616926BAB1480044C0FD /* PDVideoPlayer+Gestures.swift */; };
+		CE51617826BAB1480044C0FD /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51616A26BAB1480044C0FD /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */; };
+		CE51617926BAB1480044C0FD /* PDPlayerView+BoundsManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51616B26BAB1480044C0FD /* PDPlayerView+BoundsManagement.swift */; };
+		CE51617A26BAB1480044C0FD /* PDVideoPlayer+VideoInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51616C26BAB1480044C0FD /* PDVideoPlayer+VideoInformation.swift */; };
+		CE51617B26BAB1480044C0FD /* Numbers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51616D26BAB1480044C0FD /* Numbers+Extensions.swift */; };
+		CE51617C26BAB1480044C0FD /* PDVideoPlayer+VideoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51616E26BAB1480044C0FD /* PDVideoPlayer+VideoControl.swift */; };
+		CE51617D26BAB1480044C0FD /* PDVideoPlayer+Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51616F26BAB1480044C0FD /* PDVideoPlayer+Thumbnail.swift */; };
+		CE51617E26BAB1480044C0FD /* PDPlayerView+Pinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51617026BAB1480044C0FD /* PDPlayerView+Pinch.swift */; };
+		CE51617F26BAB1480044C0FD /* PDVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51617126BAB1480044C0FD /* PDVideoPlayer.swift */; };
+		CE51618026BAB1480044C0FD /* PDPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51617226BAB1480044C0FD /* PDPlayerView.swift */; };
+		CE51618126BAB1480044C0FD /* PDVideoPlayer+ViewManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51617326BAB1480044C0FD /* PDVideoPlayer+ViewManagement.swift */; };
+		CE51618226BAB1480044C0FD /* PDVideoPlayerProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51617426BAB1480044C0FD /* PDVideoPlayerProtocols.swift */; };
+		CE51618326BAB1480044C0FD /* PDVideoPlayer+ObserverFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51617526BAB1480044C0FD /* PDVideoPlayer+ObserverFunctionality.swift */; };
+		CE51618426BAB1480044C0FD /* PDPlayerView+Pan.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE51617626BAB1480044C0FD /* PDPlayerView+Pan.swift */; };
 		F9C6AD30654456655586617787049447 /* Pods-PDVideoPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC97596230B34D7A215684F758049817 /* Pods-PDVideoPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -79,20 +79,20 @@
 		BC97596230B34D7A215684F758049817 /* Pods-PDVideoPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDVideoPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
 		C7816DB6AC7078C1028B26DE191D467F /* Pods-PDVideoPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PDVideoPlayer_Tests.modulemap"; sourceTree = "<group>"; };
 		CAF1E0BB97FEEC2B80F0895A2EA84250 /* PDVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDVideoPlayer.debug.xcconfig; sourceTree = "<group>"; };
-		CE88D30A26B965DF00C3DA72 /* PDVideoPlayerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDVideoPlayerProtocols.swift; path = PDVideoPlayer/Classes/PDVideoPlayerProtocols.swift; sourceTree = "<group>"; };
-		CE88D30C26B965DF00C3DA72 /* PDVideoPlayer+ViewManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDVideoPlayer+ViewManagement.swift"; sourceTree = "<group>"; };
-		CE88D30D26B965DF00C3DA72 /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDVideoPlayer+AVPlayerViewControllerDelegate.swift"; sourceTree = "<group>"; };
-		CE88D30E26B965DF00C3DA72 /* PDVideoPlayer+Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDVideoPlayer+Thumbnail.swift"; sourceTree = "<group>"; };
-		CE88D30F26B965DF00C3DA72 /* PDVideoPlayer+ObserverFunctionality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDVideoPlayer+ObserverFunctionality.swift"; sourceTree = "<group>"; };
-		CE88D31026B965DF00C3DA72 /* PDVideoPlayer+VideoControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDVideoPlayer+VideoControl.swift"; sourceTree = "<group>"; };
-		CE88D31126B965DF00C3DA72 /* PDVideoPlayer+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDVideoPlayer+Gestures.swift"; sourceTree = "<group>"; };
-		CE88D31226B965DF00C3DA72 /* PDVideoPlayer+VideoInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDVideoPlayer+VideoInformation.swift"; sourceTree = "<group>"; };
-		CE88D31326B965DF00C3DA72 /* Numbers+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Numbers+Extensions.swift"; sourceTree = "<group>"; };
-		CE88D31426B965DF00C3DA72 /* PDVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDVideoPlayer.swift; path = PDVideoPlayer/Classes/PDVideoPlayer.swift; sourceTree = "<group>"; };
-		CE88D31626B965DF00C3DA72 /* PDPlayerView+Pinch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDPlayerView+Pinch.swift"; sourceTree = "<group>"; };
-		CE88D31726B965DF00C3DA72 /* PDPlayerView+Pan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDPlayerView+Pan.swift"; sourceTree = "<group>"; };
-		CE88D31826B965DF00C3DA72 /* PDPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDPlayerView.swift; sourceTree = "<group>"; };
-		CE88D31926B965DF00C3DA72 /* PDPlayerView+BoundsManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDPlayerView+BoundsManagement.swift"; sourceTree = "<group>"; };
+		CE51616926BAB1480044C0FD /* PDVideoPlayer+Gestures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDVideoPlayer+Gestures.swift"; path = "PDVideoPlayer/Classes/PDVideoPlayer+Gestures.swift"; sourceTree = "<group>"; };
+		CE51616A26BAB1480044C0FD /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDVideoPlayer+AVPlayerViewControllerDelegate.swift"; path = "PDVideoPlayer/Classes/PDVideoPlayer+AVPlayerViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		CE51616B26BAB1480044C0FD /* PDPlayerView+BoundsManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDPlayerView+BoundsManagement.swift"; path = "PDVideoPlayer/Classes/PDPlayerView+BoundsManagement.swift"; sourceTree = "<group>"; };
+		CE51616C26BAB1480044C0FD /* PDVideoPlayer+VideoInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDVideoPlayer+VideoInformation.swift"; path = "PDVideoPlayer/Classes/PDVideoPlayer+VideoInformation.swift"; sourceTree = "<group>"; };
+		CE51616D26BAB1480044C0FD /* Numbers+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Numbers+Extensions.swift"; path = "PDVideoPlayer/Classes/Numbers+Extensions.swift"; sourceTree = "<group>"; };
+		CE51616E26BAB1480044C0FD /* PDVideoPlayer+VideoControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDVideoPlayer+VideoControl.swift"; path = "PDVideoPlayer/Classes/PDVideoPlayer+VideoControl.swift"; sourceTree = "<group>"; };
+		CE51616F26BAB1480044C0FD /* PDVideoPlayer+Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDVideoPlayer+Thumbnail.swift"; path = "PDVideoPlayer/Classes/PDVideoPlayer+Thumbnail.swift"; sourceTree = "<group>"; };
+		CE51617026BAB1480044C0FD /* PDPlayerView+Pinch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDPlayerView+Pinch.swift"; path = "PDVideoPlayer/Classes/PDPlayerView+Pinch.swift"; sourceTree = "<group>"; };
+		CE51617126BAB1480044C0FD /* PDVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDVideoPlayer.swift; path = PDVideoPlayer/Classes/PDVideoPlayer.swift; sourceTree = "<group>"; };
+		CE51617226BAB1480044C0FD /* PDPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDPlayerView.swift; path = PDVideoPlayer/Classes/PDPlayerView.swift; sourceTree = "<group>"; };
+		CE51617326BAB1480044C0FD /* PDVideoPlayer+ViewManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDVideoPlayer+ViewManagement.swift"; path = "PDVideoPlayer/Classes/PDVideoPlayer+ViewManagement.swift"; sourceTree = "<group>"; };
+		CE51617426BAB1480044C0FD /* PDVideoPlayerProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PDVideoPlayerProtocols.swift; path = PDVideoPlayer/Classes/PDVideoPlayerProtocols.swift; sourceTree = "<group>"; };
+		CE51617526BAB1480044C0FD /* PDVideoPlayer+ObserverFunctionality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDVideoPlayer+ObserverFunctionality.swift"; path = "PDVideoPlayer/Classes/PDVideoPlayer+ObserverFunctionality.swift"; sourceTree = "<group>"; };
+		CE51617626BAB1480044C0FD /* PDPlayerView+Pan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PDPlayerView+Pan.swift"; path = "PDVideoPlayer/Classes/PDPlayerView+Pan.swift"; sourceTree = "<group>"; };
 		EAACC6D63C5FC2E9D9B6EA95C0CD68A4 /* Pods-PDVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F90348B82BFAEF465496B556BEF5EC27 /* Pods-PDVideoPlayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDVideoPlayer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FF89F8519D181BE62E8BDADD82D1D248 /* PDVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
@@ -152,20 +152,20 @@
 		222EDA44EAECE57A4729F93681E63EB9 /* PDVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				CE88D31426B965DF00C3DA72 /* PDVideoPlayer.swift */,
-				CE88D30C26B965DF00C3DA72 /* PDVideoPlayer+ViewManagement.swift */,
-				CE88D30D26B965DF00C3DA72 /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */,
-				CE88D30E26B965DF00C3DA72 /* PDVideoPlayer+Thumbnail.swift */,
-				CE88D30F26B965DF00C3DA72 /* PDVideoPlayer+ObserverFunctionality.swift */,
-				CE88D31026B965DF00C3DA72 /* PDVideoPlayer+VideoControl.swift */,
-				CE88D31126B965DF00C3DA72 /* PDVideoPlayer+Gestures.swift */,
-				CE88D31226B965DF00C3DA72 /* PDVideoPlayer+VideoInformation.swift */,
-				CE88D31826B965DF00C3DA72 /* PDPlayerView.swift */,
-				CE88D31626B965DF00C3DA72 /* PDPlayerView+Pinch.swift */,
-				CE88D31726B965DF00C3DA72 /* PDPlayerView+Pan.swift */,
-				CE88D31926B965DF00C3DA72 /* PDPlayerView+BoundsManagement.swift */,
-				CE88D30A26B965DF00C3DA72 /* PDVideoPlayerProtocols.swift */,
-				CE88D31326B965DF00C3DA72 /* Numbers+Extensions.swift */,
+				CE51616D26BAB1480044C0FD /* Numbers+Extensions.swift */,
+				CE51617226BAB1480044C0FD /* PDPlayerView.swift */,
+				CE51616B26BAB1480044C0FD /* PDPlayerView+BoundsManagement.swift */,
+				CE51617626BAB1480044C0FD /* PDPlayerView+Pan.swift */,
+				CE51617026BAB1480044C0FD /* PDPlayerView+Pinch.swift */,
+				CE51617126BAB1480044C0FD /* PDVideoPlayer.swift */,
+				CE51616A26BAB1480044C0FD /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */,
+				CE51616926BAB1480044C0FD /* PDVideoPlayer+Gestures.swift */,
+				CE51617526BAB1480044C0FD /* PDVideoPlayer+ObserverFunctionality.swift */,
+				CE51616F26BAB1480044C0FD /* PDVideoPlayer+Thumbnail.swift */,
+				CE51616E26BAB1480044C0FD /* PDVideoPlayer+VideoControl.swift */,
+				CE51616C26BAB1480044C0FD /* PDVideoPlayer+VideoInformation.swift */,
+				CE51617326BAB1480044C0FD /* PDVideoPlayer+ViewManagement.swift */,
+				CE51617426BAB1480044C0FD /* PDVideoPlayerProtocols.swift */,
 				B71646D2EE7D63F8A4A2C605B3498BCD /* Pod */,
 				08F509353D8D0E5874DC5F97B92FE6CE /* Support Files */,
 			);
@@ -411,21 +411,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE88D32226B965DF00C3DA72 /* Numbers+Extensions.swift in Sources */,
-				CE88D31F26B965DF00C3DA72 /* PDVideoPlayer+VideoControl.swift in Sources */,
-				CE88D31A26B965DF00C3DA72 /* PDVideoPlayerProtocols.swift in Sources */,
+				CE51617F26BAB1480044C0FD /* PDVideoPlayer.swift in Sources */,
+				CE51617C26BAB1480044C0FD /* PDVideoPlayer+VideoControl.swift in Sources */,
+				CE51617B26BAB1480044C0FD /* Numbers+Extensions.swift in Sources */,
+				CE51617A26BAB1480044C0FD /* PDVideoPlayer+VideoInformation.swift in Sources */,
+				CE51617826BAB1480044C0FD /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift in Sources */,
+				CE51618426BAB1480044C0FD /* PDPlayerView+Pan.swift in Sources */,
+				CE51618226BAB1480044C0FD /* PDVideoPlayerProtocols.swift in Sources */,
+				CE51618026BAB1480044C0FD /* PDPlayerView.swift in Sources */,
+				CE51617E26BAB1480044C0FD /* PDPlayerView+Pinch.swift in Sources */,
+				CE51618326BAB1480044C0FD /* PDVideoPlayer+ObserverFunctionality.swift in Sources */,
+				CE51617926BAB1480044C0FD /* PDPlayerView+BoundsManagement.swift in Sources */,
+				CE51618126BAB1480044C0FD /* PDVideoPlayer+ViewManagement.swift in Sources */,
+				CE51617726BAB1480044C0FD /* PDVideoPlayer+Gestures.swift in Sources */,
 				A19E9B771CE6A39082216F204D0C1A53 /* PDVideoPlayer-dummy.m in Sources */,
-				CE88D32726B965DF00C3DA72 /* PDPlayerView+BoundsManagement.swift in Sources */,
-				CE88D32426B965DF00C3DA72 /* PDPlayerView+Pinch.swift in Sources */,
-				CE88D32626B965DF00C3DA72 /* PDPlayerView.swift in Sources */,
-				CE88D31E26B965DF00C3DA72 /* PDVideoPlayer+ObserverFunctionality.swift in Sources */,
-				CE88D32026B965DF00C3DA72 /* PDVideoPlayer+Gestures.swift in Sources */,
-				CE88D32326B965DF00C3DA72 /* PDVideoPlayer.swift in Sources */,
-				CE88D32126B965DF00C3DA72 /* PDVideoPlayer+VideoInformation.swift in Sources */,
-				CE88D31D26B965DF00C3DA72 /* PDVideoPlayer+Thumbnail.swift in Sources */,
-				CE88D31C26B965DF00C3DA72 /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift in Sources */,
-				CE88D31B26B965DF00C3DA72 /* PDVideoPlayer+ViewManagement.swift in Sources */,
-				CE88D32526B965DF00C3DA72 /* PDPlayerView+Pan.swift in Sources */,
+				CE51617D26BAB1480044C0FD /* PDVideoPlayer+Thumbnail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
