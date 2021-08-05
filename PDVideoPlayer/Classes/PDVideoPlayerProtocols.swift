@@ -7,7 +7,7 @@
 
 import UIKit
 
-@objc protocol PDVideoPlayerPictureInPictureDelegate: AnyObject {
+@objc public protocol PDVideoPlayerPictureInPictureDelegate: AnyObject {
 
 	var automaticallyDismissAtPictureInPictureStart: Bool { get set }
 	@objc optional func playerWillStartPictureInPicture()
@@ -19,14 +19,14 @@ import UIKit
 
 }
 
-@objc protocol PDVideoPlayerFullscreenPresentationDelegate: AnyObject {
+@objc public protocol PDVideoPlayerFullscreenPresentationDelegate: AnyObject {
 
 	@objc optional func player(willBeginFullScreenPresentationWithAnimationCoordinator coordinator: UIViewControllerTransitionCoordinator)
 	@objc optional func player(willEndFullScreenPresentationWithAnimationCoordinator coordinator: UIViewControllerTransitionCoordinator)
 
 }
 
-@objc protocol PDVideoPlayerVideoInformationDelegate: AnyObject {
+@objc public protocol PDVideoPlayerVideoInformationDelegate: AnyObject {
 
 	@objc optional func playerStartedPlaying(player: PDVideoPlayer)
 	@objc optional func playerPaused(player: PDVideoPlayer)

@@ -153,10 +153,6 @@
 			isa = PBXGroup;
 			children = (
 				CE51619226BACC230044C0FD /* Numbers+Extensions.swift */,
-				CE51618926BACC230044C0FD /* PDPlayerView.swift */,
-				CE51618826BACC230044C0FD /* PDPlayerView+BoundsManagement.swift */,
-				CE51618D26BACC230044C0FD /* PDPlayerView+Pan.swift */,
-				CE51618E26BACC230044C0FD /* PDPlayerView+Pinch.swift */,
 				CE51618A26BACC230044C0FD /* PDVideoPlayer.swift */,
 				CE51618526BACC230044C0FD /* PDVideoPlayer+AVPlayerViewControllerDelegate.swift */,
 				CE51618F26BACC230044C0FD /* PDVideoPlayer+Gestures.swift */,
@@ -166,6 +162,10 @@
 				CE51618726BACC230044C0FD /* PDVideoPlayer+VideoInformation.swift */,
 				CE51619126BACC230044C0FD /* PDVideoPlayer+ViewManagement.swift */,
 				CE51619026BACC230044C0FD /* PDVideoPlayerProtocols.swift */,
+				CE51618926BACC230044C0FD /* PDPlayerView.swift */,
+				CE51618826BACC230044C0FD /* PDPlayerView+BoundsManagement.swift */,
+				CE51618D26BACC230044C0FD /* PDPlayerView+Pan.swift */,
+				CE51618E26BACC230044C0FD /* PDPlayerView+Pinch.swift */,
 				B71646D2EE7D63F8A4A2C605B3498BCD /* Pod */,
 				08F509353D8D0E5874DC5F97B92FE6CE /* Support Files */,
 			);
