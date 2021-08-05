@@ -19,9 +19,9 @@ public class PDVideoPlayer: NSObject {
 		}
 	}
 
-	weak var pictureInPictureDelegate: PDVideoPlayerPictureInPictureDelegate?
-	weak var fullscreenPresentationDelegate: PDVideoPlayerFullscreenPresentationDelegate?
-	weak var videoInformationDelegate: PDVideoPlayerVideoInformationDelegate?
+	public weak var pictureInPictureDelegate: PDVideoPlayerPictureInPictureDelegate?
+	public weak var fullscreenPresentationDelegate: PDVideoPlayerFullscreenPresentationDelegate?
+	public weak var videoInformationDelegate: PDVideoPlayerVideoInformationDelegate?
 
 	public init(url: URL) {
 		self.url = url
