@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PDVideoPlayer'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'PDVideoPlayer is a simple native video player tool'
   s.swift_versions = '5.0'
 
