@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import PDVideoPlayer
 
 class ViewController: UIViewController {
 
+	@IBOutlet private weak var videoContainer: UIView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+		let player = PDVideoPlayer(url: URL(string: "https://www.rmp-streaming.com/media/big-buck-bunny-360p.mp4")!)
+		player.add(inViewController: self, container: videoContainer)
+		player.resizable = true
+		player.movable = true
     }
 
     override func didReceiveMemoryWarning() {
